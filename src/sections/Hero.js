@@ -4,7 +4,7 @@ export default function Hero() {
     return (
 
       <section id="hero" className="min-h-screen flex items-center justify-center rounded-b-4xl">
-        <img class="h-screen relative z-0 w-full transition-all duration-300 rounded-b-4xl blur-xs hover:blur-none" src="https://images.unsplash.com/photo-1552590635-27c2c2128abf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image description"></img>
+        <img className="h-screen relative z-0 w-full transition-all duration-300 rounded-b-4xl blur-xs hover:blur-none" src="https://images.unsplash.com/photo-1552590635-27c2c2128abf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image description"></img>
         <div className="text-center max-w-2xl z-10 absolute ">
 
 
