@@ -16,10 +16,10 @@ export default function Hero() {
           Aaoji welcomes you to explore mouth-watering North Indian cuisine that hits just right!
           </p>
           <div className="space-x-4 space-y-4">
-            <button className="bg-red-600 text-white px-6 py-3 rounded-md hover:bg-red-700 transition hover:cursor-pointer">
+            <button className="bg-red-600 text-white px-6 py-3 rounded-md hover:bg-red-700 transition hover:cursor-pointer active:bg-red-800">
               Call Us for Bookings
             </button>
-            <button className="border border-red-600 text-red-600 px-6 py-3 rounded-md hover:bg-red-50 transition hover:cursor-pointer">
+            <button className="border border-red-600 text-red-600 px-6 py-3 rounded-md active:bg-red-100 hover:bg-red-50 transition hover:cursor-pointer">
               Explore Menu
             </button>
           </div>

@@ -46,7 +46,7 @@ useEffect(() => {
   return (
     <header className={`bg-yellow-50 shadow-md sticky top-0 z-50 transition-transform duration-300 ${showNavbar ? 'translate-y-0' : '-translate-y-full'}`}>
 
-      <nav className="max-w-6xl mx-auto  py-4 flex justify-between items-center">
+      <nav className="max-w-6xl mx-auto  py-4 px-4 flex justify-between items-center">
         <img src="/logo.png" alt="Aaoji" className="w-28 h-auto" />
 
 

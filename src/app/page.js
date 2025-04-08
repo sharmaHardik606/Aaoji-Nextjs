@@ -6,7 +6,6 @@ import Gallery from "@/sections/Gallery";
 import Testimonials from "@/sections/Testimonials";
 import Contact from "@/sections/Contact";
 import Footer from "@/components/Footer";
-import Sweet from "@/sections/Sweet";
 
 
 

@@ -25,10 +25,10 @@ export default function About() {
             sourced ingredients.
             </p>
             <div className="space-x-4 space-y-4">
-            <button className="bg-red-600 hover:cursor-pointer text-white px-6 py-3 rounded-md hover:bg-red-700 transition">
+            <button className="bg-red-600 hover:cursor-pointer active:bg-red-800 text-white px-6 py-3 rounded-md hover:bg-red-700 transition">
               Call Us for Bookings
             </button>
-            <button className="border hover:cursor-pointer border-red-600 text-red-600 px-6 py-3 rounded-md hover:bg-red-50 transition">
+            <button className="border hover:cursor-pointer active:bg-red-100 border-red-600 text-red-600 px-6 py-3 rounded-md hover:bg-red-50 transition">
               Explore Menu
             </button>
           </div>
