@@ -4,8 +4,8 @@ export default function Hero() {
     return (
 
       <section id="hero" className="min-h-screen flex items-center justify-center rounded-b-4xl">
-        <img className="h-screen relative z-0 w-full transition-all duration-300 rounded-b-4xl blur-xs hover:blur-none" src="https://images.unsplash.com/photo-1552590635-27c2c2128abf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image description"></img>
-        <div className="text-center max-w-2xl z-10 absolute ">
+        <img className="h-screen relative z-0 w-full transition-all duration-300 rounded-b-4xl blur-xs hover:blur-none" src="https://images.pexels.com/photos/28674690/pexels-photo-28674690/free-photo-of-rich-indian-lamb-curry-in-traditional-metal-bowl.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="image description"></img>
+        <div className="text-center max-w-3xl z-10 absolute ">
 
 
 
@@ -13,14 +13,9 @@ export default function Hero() {
             Bold Flavors, Fun Vibes, Authentic Taste
           </h1>
           <p className="text-lg text-white mb-6">
-          Aaoji is your perfect pit stop on the highway, serving up
-            bold, authentic flavors that are fast, fun, and full of taste.
-            Whether you're craving a quick bite or a satisfying meal on
-            the go, Aaoji brings the perfect blend of tradition and
-            excitement to your journey. Stop by for a flavorful
-            adventure – no detours needed!
+          Aaoji welcomes you to explore mouth-watering North Indian cuisine that hits just right!
           </p>
-          <div className="space-x-4">
+          <div className="space-x-4 space-y-4">
             <button className="bg-red-600 text-white px-6 py-3 rounded-md hover:bg-red-700 transition hover:cursor-pointer">
               Call Us for Bookings
             </button>

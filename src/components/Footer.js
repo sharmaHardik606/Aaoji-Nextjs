@@ -1,3 +1,5 @@
+// Used UI library For this Component
+
 import { FaInstagram, FaFacebookSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
@@ -45,6 +47,9 @@ export default function Footer() {
                     <li>
                         <a href="#gallery" title="" className="flex text-base text-black transition-all duration-200 hover:text-red-600 focus:text-red-600">Gallery</a>
                     </li>
+                    {/* <li>
+                        <a href="#sweet" title="" className="flex text-base text-black transition-all duration-200 hover:text-red-600 focus:text-red-600">Sweet</a>
+                    </li> */}
                     <li>
                         <a href="#testimonials" title="" className="flex text-base text-black transition-all duration-200 hover:text-red-600 focus:text-red-600">Tastimonials</a>
                     </li>

@@ -24,7 +24,7 @@ export default function About() {
             offering delicious dishes made from the finest, locally
             sourced ingredients.
             </p>
-            <div className="space-x-4">
+            <div className="space-x-4 space-y-4">
             <button className="bg-red-600 hover:cursor-pointer text-white px-6 py-3 rounded-md hover:bg-red-700 transition">
               Call Us for Bookings
             </button>

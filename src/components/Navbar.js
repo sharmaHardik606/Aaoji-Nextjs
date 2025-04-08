@@ -17,10 +17,10 @@ useEffect(() => {
       const currentScrollY = window.scrollY;
 
       if (currentScrollY > lastScrollY && currentScrollY > 80) {
-        // scrolling down
+        // down
         setShowNavbar(false);
       } else {
-        // scrolling up
+        // up
         setShowNavbar(true);
       }
 
@@ -73,7 +73,7 @@ useEffect(() => {
         </div>
       </nav>
 
-      {/* Mobile Dropdown Menu */}
+      {/* Mobile Dropdown*/}
       {isOpen && (
         <div className="md:hidden px-4 pb-4">
           <ul className="flex flex-col space-y-4 text-gray-700 font-medium">
