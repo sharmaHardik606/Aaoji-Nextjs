@@ -7,7 +7,7 @@ import { MdOutlineRestaurantMenu } from "react-icons/md";
 
 export default function Navbar() {
 
-  const [isOpen, setIsOpen] = useState(false);
+const [isOpen, setIsOpen] = useState(false);
 const [showNavbar, setShowNavbar] = useState(true);
 const [lastScrollY, setLastScrollY] = useState(0);
 
